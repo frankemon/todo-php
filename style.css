@@ -1,0 +1,102 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 auto;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+  margin-top: 30px;
+  color: #0c0c0c;
+  text-align: center;
+  background-color: #F7F5FB;
+}
+
+h1 {
+  font-size: 1.5rem;
+  padding-bottom: 1em;
+}
+
+.link-button {
+  background-color: #efefef;
+  padding: 1px 6px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  border-width: 2px;
+  border-style: outset;
+  border-color: -internal-light-dark(#767676, #858585);
+}
+
+.home {
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.form-login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form-todo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.list-heading {
+  padding: .25rem 0 .5rem 0;
+  font-size: 1.3rem;
+  text-decoration: underline;
+}
+
+.list-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-height: 100%;
+}
+
+.todo-card {
+  max-width: 400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.card-button-holder {
+  max-width: 50%;
+  background-color: blue;
+}
+
+.test {
+  background-color: red;
+}
+
+li {
+  list-style: none;
+}
+
+.js-line-on {
+  text-decoration: line-through;
+}
+
+.js-line-off {
+  text-decoration: none;
+}
